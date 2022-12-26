@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #000, url(401679.jpg);
+  overflow: hidden;
+}
+
+.pyro > .before, .pyro > .after {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  box-shadow: 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff;
+  -webkit-animation: 1s bang ease-out infinite backwards, 1s gravity ease-in infinite backwards, 5s position linear infinite backwards;
+  animation: 1s bang ease-out infinite backwards, 1s gravity ease-in infinite backwards, 5s position linear infinite backwards;
+}
+
+.pyro > .after {
+  -webkit-animation-delay: 1.25s, 1.25s, 1.25s;
+  animation-delay: 1.25s, 1.25s, 1.25s;
+  -webkit-animation-duration: 1.25s, 1.25s, 6.25s;
+  animation-duration: 1.25s, 1.25s, 6.25s;
+}
+
+@-webkit-keyframes bang {
+  to {
+    box-shadow: 17px -80.6666666667px hsl(210deg, 100%, 50%), -183px -247.6666666667px hsl(101deg, 100%, 50%), 89px -218.6666666667px hsl(282deg, 100%, 50%), 69px -374.6666666667px hsl(125deg, 100%, 50%), 154px -103.6666666667px hsl(171deg, 100%, 50%), 182px -120.6666666667px hsl(177deg, 100%, 50%), 43px -128.6666666667px hsl(324deg, 100%, 50%), -79px 78.3333333333px hsl(34deg, 100%, 50%), 21px -200.6666666667px hsl(76deg, 100%, 50%), 106px -382.6666666667px hsl(15deg, 100%, 50%), 220px -53.6666666667px hsl(117deg, 100%, 50%), 141px 19.3333333333px hsl(88deg, 100%, 50%), 249px -326.6666666667px hsl(305deg, 100%, 50%), 38px 82.3333333333px hsl(252deg, 100%, 50%), 131px -285.6666666667px hsl(313deg, 100%, 50%), 189px -103.6666666667px hsl(248deg, 100%, 50%), 4px -397.6666666667px hsl(255deg, 100%, 50%), -56px -253.6666666667px hsl(56deg, 100%, 50%), 246px 39.3333333333px hsl(244deg, 100%, 50%), 112px -212.6666666667px hsl(194deg, 100%, 50%), -229px -201.6666666667px hsl(55deg, 100%, 50%), -192px -168.6666666667px hsl(75deg, 100%, 50%), -244px -20.6666666667px hsl(299deg, 100%, 50%), 65px 46.3333333333px hsl(21deg, 100%, 50%), -148px 55.3333333333px hsl(49deg, 100%, 50%), 102px -377.6666666667px hsl(131deg, 100%, 50%), -69px -318.6666666667px hsl(291deg, 100%, 50%), -143px -291.6666666667px hsl(329deg, 100%, 50%), 212px 42.3333333333px hsl(132deg, 100%, 50%), -204px -152.6666666667px hsl(327deg, 100%, 50%), -189px -251.6666666667px hsl(35deg, 100%, 50%), -205px 27.3333333333px hsl(46deg, 100%, 50%), 192px -83.6666666667px hsl(315deg, 100%, 50%), 174px 23.3333333333px hsl(320deg, 100%, 50%), -212px -310.6666666667px hsl(172deg, 100%, 50%), -175px -160.6666666667px hsl(0deg, 100%, 50%), 130px -381.6666666667px hsl(32deg, 100%, 50%), -133px 1.3333333333px hsl(4deg, 100%, 50%), -156px -413.6666666667px hsl(256deg, 100%, 50%), -64px -160.6666666667px hsl(355deg, 100%, 50%), 93px -405.6666666667px hsl(327deg, 100%, 50%), -179px -24.6666666667px hsl(106deg, 100%, 50%), -28px -257.6666666667px hsl(270deg, 100%, 50%), -210px -282.6666666667px hsl(155deg, 100%, 50%), -137px -18.6666666667px hsl(173deg, 100%, 50%), 213px -239.6666666667px hsl(141deg, 100%, 50%), -204px -203.6666666667px hsl(356deg, 100%, 50%), 36px 21.3333333333px hsl(240deg, 100%, 50%), -210px 2.3333333333px hsl(167deg, 100%, 50%), 19px -8.6666666667px hsl(304deg, 100%, 50%), 186px -14.6666666667px hsl(221deg, 100%, 50%);
+  }
+}
+@keyframes bang {
+  to {
+    box-shadow: 17px -80.6666666667px hsl(210deg, 100%, 50%), -183px -247.6666666667px hsl(101deg, 100%, 50%), 89px -218.6666666667px hsl(282deg, 100%, 50%), 69px -374.6666666667px hsl(125deg, 100%, 50%), 154px -103.6666666667px hsl(171deg, 100%, 50%), 182px -120.6666666667px hsl(177deg, 100%, 50%), 43px -128.6666666667px hsl(324deg, 100%, 50%), -79px 78.3333333333px hsl(34deg, 100%, 50%), 21px -200.6666666667px hsl(76deg, 100%, 50%), 106px -382.6666666667px hsl(15deg, 100%, 50%), 220px -53.6666666667px hsl(117deg, 100%, 50%), 141px 19.3333333333px hsl(88deg, 100%, 50%), 249px -326.6666666667px hsl(305deg, 100%, 50%), 38px 82.3333333333px hsl(252deg, 100%, 50%), 131px -285.6666666667px hsl(313deg, 100%, 50%), 189px -103.6666666667px hsl(248deg, 100%, 50%), 4px -397.6666666667px hsl(255deg, 100%, 50%), -56px -253.6666666667px hsl(56deg, 100%, 50%), 246px 39.3333333333px hsl(244deg, 100%, 50%), 112px -212.6666666667px hsl(194deg, 100%, 50%), -229px -201.6666666667px hsl(55deg, 100%, 50%), -192px -168.6666666667px hsl(75deg, 100%, 50%), -244px -20.6666666667px hsl(299deg, 100%, 50%), 65px 46.3333333333px hsl(21deg, 100%, 50%), -148px 55.3333333333px hsl(49deg, 100%, 50%), 102px -377.6666666667px hsl(131deg, 100%, 50%), -69px -318.6666666667px hsl(291deg, 100%, 50%), -143px -291.6666666667px hsl(329deg, 100%, 50%), 212px 42.3333333333px hsl(132deg, 100%, 50%), -204px -152.6666666667px hsl(327deg, 100%, 50%), -189px -251.6666666667px hsl(35deg, 100%, 50%), -205px 27.3333333333px hsl(46deg, 100%, 50%), 192px -83.6666666667px hsl(315deg, 100%, 50%), 174px 23.3333333333px hsl(320deg, 100%, 50%), -212px -310.6666666667px hsl(172deg, 100%, 50%), -175px -160.6666666667px hsl(0deg, 100%, 50%), 130px -381.6666666667px hsl(32deg, 100%, 50%), -133px 1.3333333333px hsl(4deg, 100%, 50%), -156px -413.6666666667px hsl(256deg, 100%, 50%), -64px -160.6666666667px hsl(355deg, 100%, 50%), 93px -405.6666666667px hsl(327deg, 100%, 50%), -179px -24.6666666667px hsl(106deg, 100%, 50%), -28px -257.6666666667px hsl(270deg, 100%, 50%), -210px -282.6666666667px hsl(155deg, 100%, 50%), -137px -18.6666666667px hsl(173deg, 100%, 50%), 213px -239.6666666667px hsl(141deg, 100%, 50%), -204px -203.6666666667px hsl(356deg, 100%, 50%), 36px 21.3333333333px hsl(240deg, 100%, 50%), -210px 2.3333333333px hsl(167deg, 100%, 50%), 19px -8.6666666667px hsl(304deg, 100%, 50%), 186px -14.6666666667px hsl(221deg, 100%, 50%);
+  }
+}
+@-webkit-keyframes gravity {
+  to {
+    transform: translateY(200px);
+    -moz-transform: translateY(200px);
+    -webkit-transform: translateY(200px);
+    -o-transform: translateY(200px);
+    -ms-transform: translateY(200px);
+    opacity: 0;
+  }
+}
+@keyframes gravity {
+  to {
+    transform: translateY(200px);
+    -moz-transform: translateY(200px);
+    -webkit-transform: translateY(200px);
+    -o-transform: translateY(200px);
+    -ms-transform: translateY(200px);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes position {
+  0%, 19.9% {
+    margin-top: 10%;
+    margin-left: 40%;
+  }
+  20%, 39.9% {
+    margin-top: 40%;
+    margin-left: 30%;
+  }
+  40%, 59.9% {
+    margin-top: 20%;
+    margin-left: 70%;
+  }
+  60%, 79.9% {
+    margin-top: 30%;
+    margin-left: 20%;
+  }
+  80%, 99.9% {
+    margin-top: 30%;
+    margin-left: 80%;
+  }
+}
+@keyframes position {
+  0%, 19.9% {
+    margin-top: 10%;
+    margin-left: 40%;
+  }
+  20%, 39.9% {
+    margin-top: 40%;
+    margin-left: 30%;
+  }
+  40%, 59.9% {
+    margin-top: 20%;
+    margin-left: 70%;
+  }
+  60%, 79.9% {
+    margin-top: 30%;
+    margin-left: 20%;
+  }
+  80%, 99.9% {
+    margin-top: 30%;
+    margin-left: 80%;
+  }
+}/*# sourceMappingURL=background.css.map */
